@@ -1,1 +1,105 @@
-{}
+{
+    "Confirm": {
+        "Batch 1": {
+            "Treatment A": [
+                "Control",
+                0,
+                "",
+                10,
+                ""
+            ],
+            "Treatment B": [
+                "Graphene",
+                0.1,
+                "ppm",
+                10,
+                ""
+            ],
+            "Treatment C": [
+                "Graphene",
+                0.5,
+                "ppm",
+                10,
+                ""
+            ],
+            "Treatment D": [
+                "Graphene oxide",
+                0.1,
+                "ppm",
+                10,
+                ""
+            ],
+            "Treatment E": [
+                "Graphene oxide",
+                1.0,
+                "ppm",
+                10,
+                ""
+            ]
+        },
+        "DIRECTORY": "D:\\TestSave\\Confirm",
+        "Batch 2": {
+            "Treatment A": [
+                "Control",
+                0,
+                "",
+                10,
+                ""
+            ],
+            "Treatment B": [
+                "Graphene",
+                0.1,
+                "ppm",
+                10,
+                ""
+            ],
+            "Treatment C": [
+                "Graphene",
+                0.5,
+                "ppm",
+                10,
+                ""
+            ],
+            "Treatment D": [
+                "Graphene oxide",
+                0.1,
+                "ppm",
+                10,
+                ""
+            ],
+            "Treatment E": [
+                "Graphene oxide",
+                1.0,
+                "ppm",
+                10,
+                ""
+            ]
+        }
+    },
+    "Test": {
+        "Batch 1": {
+            "Treatment A": [
+                "Control",
+                0,
+                "",
+                10,
+                "Control"
+            ],
+            "Treatment B": [
+                "Something",
+                0.01,
+                "ppm",
+                10,
+                "Control"
+            ],
+            "Treatment C": [
+                "Something",
+                0.1,
+                "ppm",
+                11,
+                "Control"
+            ]
+        },
+        "DIRECTORY": "D:\\TestSave\\Test"
+    }
+}
