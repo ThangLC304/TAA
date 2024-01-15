@@ -1,0 +1,5 @@
+2024-01-15 12:15:05,960 DEBUG    [main.py] Refresh projects
+2024-01-15 12:15:06,008 INFO     [main.py] Initial display of parameters, batch = 1, test = first test, condition = A
+2024-01-15 12:15:06,009 DEBUG    [main.py] Loading parameters for project_name = , selected_task = Novel Tank Test, condition = A, batch_num = 1, nested_key = 0
+2024-01-15 12:15:06,038 DEBUG    [main.py] Loading parameters for project_name = , selected_task = Novel Tank Test, condition = A, batch_num = 1, nested_key = 1
+2024-01-15 12:15:06,090 DEBUG    [main.py] Loading parameters for project_name = , selected_task = Novel Tank Test, condition = A, batch_num = 1, nested_key = 2
