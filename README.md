@@ -34,7 +34,7 @@ TowerAssayAnalyzer is the new software we build to complement the Tower Assay Pr
 
 ## APP NAVIGATION
 
-<img src="https://github.com/ThangLC304/taa/blob/main/Bin/support/app_screen.png" alt="image" width="450" height="auto">
+<img src="https://github.com/ThangLC304/taa/blob/main/Bin/support/step01.png" alt="image" width="450" height="auto">
 
 <!-- ![App_Screen](https://github.com/ThangLC304/taa/blob/main/Bin/support/app_screen_with_num.png) -->
 
