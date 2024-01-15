@@ -5829,3 +5829,1078 @@
 2024-01-15 12:20:52,164 DEBUG    [misc.py] Merged cells in worksheet 30-31 MIN
 2024-01-15 12:20:52,164 DEBUG    [misc.py] Also merge treatment column
 2024-01-15 12:20:52,165 DEBUG    [misc.py] Inserted a separator row at row 56
+2024-01-15 12:34:10,263 INFO     [main.py] Batch 1 has been analyzed successfully..
+ Total time taken: 130.9381492137909 seconds
+2024-01-15 12:39:21,410 DEBUG    [main.py] Checking the existence of the trajectories, mode = current
+2024-01-15 12:39:21,411 DEBUG    [main.py] Checking these treatments: ['A']
+2024-01-15 12:39:21,411 INFO     [misc.py] Checking trajectories dir for Project:D:\TestSave\Confirm, Novel Tank Test, A, Batch 1
+2024-01-15 12:39:21,412 DEBUG    [misc.py] Test dir pattern: *Novel Tank Test* => test_dir found: D:\TestSave\Confirm\01 - Novel Tank Test
+2024-01-15 12:39:21,412 DEBUG    [misc.py] Treatment dir pattern: *A -*(1st Batch) => treatment_dir found: D:\TestSave\Confirm\01 - Novel Tank Test\A - Control (1st Batch)
+2024-01-15 12:39:21,412 DEBUG    [misc.py] Total 10 trajectories_dirs found in D:\TestSave\Confirm\01 - Novel Tank Test\A - Control (1st Batch)
+2024-01-15 12:39:21,413 INFO     [misc.py] Checked successfully!
+2024-01-15 12:39:21,413 DEBUG    [misc.py] Rearranged checker_dict to natural order
+2024-01-15 12:40:53,995 DEBUG    [main.py] Open a new thread to analyze project
+2024-01-15 12:40:53,995 DEBUG    [main.py] Start pre-analyze check
+2024-01-15 12:40:53,995 DEBUG    [main.py] Checking the existence of the trajectories, mode = all
+2024-01-15 12:40:53,996 DEBUG    [main.py] Checking these treatments: ['A', 'B', 'C', 'D', 'E']
+2024-01-15 12:40:53,996 INFO     [misc.py] Checking trajectories dir for Project:D:\TestSave\Confirm, Novel Tank Test, A, Batch 1
+2024-01-15 12:40:53,996 DEBUG    [misc.py] Test dir pattern: *Novel Tank Test* => test_dir found: D:\TestSave\Confirm\01 - Novel Tank Test
+2024-01-15 12:40:53,996 DEBUG    [misc.py] Treatment dir pattern: *A -*(1st Batch) => treatment_dir found: D:\TestSave\Confirm\01 - Novel Tank Test\A - Control (1st Batch)
+2024-01-15 12:40:53,997 DEBUG    [misc.py] Total 10 trajectories_dirs found in D:\TestSave\Confirm\01 - Novel Tank Test\A - Control (1st Batch)
+2024-01-15 12:40:53,998 INFO     [misc.py] Checked successfully!
+2024-01-15 12:40:53,998 DEBUG    [misc.py] Rearranged checker_dict to natural order
+2024-01-15 12:40:54,049 INFO     [misc.py] Checking trajectories dir for Project:D:\TestSave\Confirm, Novel Tank Test, B, Batch 1
+2024-01-15 12:40:54,050 DEBUG    [misc.py] Test dir pattern: *Novel Tank Test* => test_dir found: D:\TestSave\Confirm\01 - Novel Tank Test
+2024-01-15 12:40:54,050 DEBUG    [misc.py] Treatment dir pattern: *B -*(1st Batch) => treatment_dir found: D:\TestSave\Confirm\01 - Novel Tank Test\B - Graphene 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,050 DEBUG    [misc.py] Total 10 trajectories_dirs found in D:\TestSave\Confirm\01 - Novel Tank Test\B - Graphene 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,051 INFO     [misc.py] Checked successfully!
+2024-01-15 12:40:54,052 DEBUG    [misc.py] Rearranged checker_dict to natural order
+2024-01-15 12:40:54,108 INFO     [misc.py] Checking trajectories dir for Project:D:\TestSave\Confirm, Novel Tank Test, C, Batch 1
+2024-01-15 12:40:54,109 DEBUG    [misc.py] Test dir pattern: *Novel Tank Test* => test_dir found: D:\TestSave\Confirm\01 - Novel Tank Test
+2024-01-15 12:40:54,109 DEBUG    [misc.py] Treatment dir pattern: *C -*(1st Batch) => treatment_dir found: D:\TestSave\Confirm\01 - Novel Tank Test\C - Graphene 0.5 ppm (1st Batch)
+2024-01-15 12:40:54,109 DEBUG    [misc.py] Total 10 trajectories_dirs found in D:\TestSave\Confirm\01 - Novel Tank Test\C - Graphene 0.5 ppm (1st Batch)
+2024-01-15 12:40:54,110 INFO     [misc.py] Checked successfully!
+2024-01-15 12:40:54,111 DEBUG    [misc.py] Rearranged checker_dict to natural order
+2024-01-15 12:40:54,166 INFO     [misc.py] Checking trajectories dir for Project:D:\TestSave\Confirm, Novel Tank Test, D, Batch 1
+2024-01-15 12:40:54,166 DEBUG    [misc.py] Test dir pattern: *Novel Tank Test* => test_dir found: D:\TestSave\Confirm\01 - Novel Tank Test
+2024-01-15 12:40:54,167 DEBUG    [misc.py] Treatment dir pattern: *D -*(1st Batch) => treatment_dir found: D:\TestSave\Confirm\01 - Novel Tank Test\D - Graphene oxide 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,167 DEBUG    [misc.py] Total 10 trajectories_dirs found in D:\TestSave\Confirm\01 - Novel Tank Test\D - Graphene oxide 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,168 INFO     [misc.py] Checked successfully!
+2024-01-15 12:40:54,168 DEBUG    [misc.py] Rearranged checker_dict to natural order
+2024-01-15 12:40:54,221 INFO     [misc.py] Checking trajectories dir for Project:D:\TestSave\Confirm, Novel Tank Test, E, Batch 1
+2024-01-15 12:40:54,222 DEBUG    [misc.py] Test dir pattern: *Novel Tank Test* => test_dir found: D:\TestSave\Confirm\01 - Novel Tank Test
+2024-01-15 12:40:54,222 DEBUG    [misc.py] Treatment dir pattern: *E -*(1st Batch) => treatment_dir found: D:\TestSave\Confirm\01 - Novel Tank Test\E - Graphene oxide 1.0 ppm (1st Batch)
+2024-01-15 12:40:54,223 DEBUG    [misc.py] Total 10 trajectories_dirs found in D:\TestSave\Confirm\01 - Novel Tank Test\E - Graphene oxide 1.0 ppm (1st Batch)
+2024-01-15 12:40:54,224 INFO     [misc.py] Checked successfully!
+2024-01-15 12:40:54,224 DEBUG    [misc.py] Rearranged checker_dict to natural order
+2024-01-15 12:40:54,277 DEBUG    [main.py] All trajectories are valid
+2024-01-15 12:40:54,278 WARNING  [main.py] 'int' object has no attribute 'destroy'
+2024-01-15 12:40:54,278 INFO     [main.py] Start analyzing project
+2024-01-15 12:40:54,279 DEBUG    [main.py] Save button pressed, save the current parameters
+2024-01-15 12:40:54,279 DEBUG    [main.py] Condition: A
+2024-01-15 12:40:54,279 DEBUG    [main.py] Saving parameters for Confirm.Novel Tank Test.A.1 in mode = current
+2024-01-15 12:40:54,279 DEBUG    [main.py] Retrieved hyp from D:\TestSave\Confirm\static\Batch 1\A\hyp_novel.json, mode = current
+2024-01-15 12:40:54,281 INFO     [main.py] Parameters of novel saved to D:\TestSave\Confirm\static\Batch 1\A\hyp_novel.json.
+2024-01-15 12:40:54,282 DEBUG    [main.py] Saving parameters for Confirm.Novel Tank Test.A.1 in mode = current
+2024-01-15 12:40:54,282 DEBUG    [main.py] Retrieved hyp from D:\TestSave\Confirm\static\Batch 1\A\hyp_novel.json, mode = current
+2024-01-15 12:40:54,293 INFO     [main.py] Parameters of novel saved to D:\TestSave\Confirm\static\Batch 1\A\hyp_novel.json.
+2024-01-15 12:40:54,293 DEBUG    [main.py] Saving parameters for Confirm.Novel Tank Test.A.1 in mode = current
+2024-01-15 12:40:54,294 DEBUG    [main.py] Retrieved hyp from D:\TestSave\Confirm\static\Batch 1\A\hyp_novel.json, mode = current
+2024-01-15 12:40:54,296 INFO     [main.py] Parameters of novel saved to D:\TestSave\Confirm\static\Batch 1\A\hyp_novel.json.
+2024-01-15 12:40:54,346 DEBUG    [autoanalyzer.py] Found 10 fish in A - Control (1st Batch)
+2024-01-15 12:40:54,347 DEBUG    [autoanalyzer.py] Found 1 txt files in 1
+2024-01-15 12:40:54,347 DEBUG    [autoanalyzer.py] Valid is now 1
+2024-01-15 12:40:54,348 DEBUG    [autoanalyzer.py] Found 1 txt files in 10
+2024-01-15 12:40:54,348 DEBUG    [autoanalyzer.py] Valid is now 2
+2024-01-15 12:40:54,348 DEBUG    [autoanalyzer.py] Found 1 txt files in 2
+2024-01-15 12:40:54,348 DEBUG    [autoanalyzer.py] Valid is now 3
+2024-01-15 12:40:54,349 DEBUG    [autoanalyzer.py] Found 1 txt files in 3
+2024-01-15 12:40:54,349 DEBUG    [autoanalyzer.py] Valid is now 4
+2024-01-15 12:40:54,349 DEBUG    [autoanalyzer.py] Found 1 txt files in 4
+2024-01-15 12:40:54,349 DEBUG    [autoanalyzer.py] Valid is now 5
+2024-01-15 12:40:54,349 DEBUG    [autoanalyzer.py] Found 1 txt files in 5
+2024-01-15 12:40:54,349 DEBUG    [autoanalyzer.py] Valid is now 6
+2024-01-15 12:40:54,350 DEBUG    [autoanalyzer.py] Found 1 txt files in 6
+2024-01-15 12:40:54,350 DEBUG    [autoanalyzer.py] Valid is now 7
+2024-01-15 12:40:54,350 DEBUG    [autoanalyzer.py] Found 1 txt files in 7
+2024-01-15 12:40:54,350 DEBUG    [autoanalyzer.py] Valid is now 8
+2024-01-15 12:40:54,351 DEBUG    [autoanalyzer.py] Found 1 txt files in 8
+2024-01-15 12:40:54,351 DEBUG    [autoanalyzer.py] Valid is now 9
+2024-01-15 12:40:54,351 DEBUG    [autoanalyzer.py] Found 1 txt files in 9
+2024-01-15 12:40:54,351 DEBUG    [autoanalyzer.py] Valid is now 10
+2024-01-15 12:40:54,352 DEBUG    [autoanalyzer.py] Found 10 fish in B - Graphene 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,352 DEBUG    [autoanalyzer.py] Found 1 txt files in 1
+2024-01-15 12:40:54,352 DEBUG    [autoanalyzer.py] Valid is now 1
+2024-01-15 12:40:54,352 DEBUG    [autoanalyzer.py] Found 1 txt files in 10
+2024-01-15 12:40:54,352 DEBUG    [autoanalyzer.py] Valid is now 2
+2024-01-15 12:40:54,353 DEBUG    [autoanalyzer.py] Found 1 txt files in 2
+2024-01-15 12:40:54,353 DEBUG    [autoanalyzer.py] Valid is now 3
+2024-01-15 12:40:54,353 DEBUG    [autoanalyzer.py] Found 1 txt files in 3
+2024-01-15 12:40:54,353 DEBUG    [autoanalyzer.py] Valid is now 4
+2024-01-15 12:40:54,353 DEBUG    [autoanalyzer.py] Found 1 txt files in 4
+2024-01-15 12:40:54,353 DEBUG    [autoanalyzer.py] Valid is now 5
+2024-01-15 12:40:54,354 DEBUG    [autoanalyzer.py] Found 1 txt files in 5
+2024-01-15 12:40:54,354 DEBUG    [autoanalyzer.py] Valid is now 6
+2024-01-15 12:40:54,354 DEBUG    [autoanalyzer.py] Found 1 txt files in 6
+2024-01-15 12:40:54,354 DEBUG    [autoanalyzer.py] Valid is now 7
+2024-01-15 12:40:54,355 DEBUG    [autoanalyzer.py] Found 1 txt files in 7
+2024-01-15 12:40:54,355 DEBUG    [autoanalyzer.py] Valid is now 8
+2024-01-15 12:40:54,355 DEBUG    [autoanalyzer.py] Found 1 txt files in 8
+2024-01-15 12:40:54,355 DEBUG    [autoanalyzer.py] Valid is now 9
+2024-01-15 12:40:54,355 DEBUG    [autoanalyzer.py] Found 1 txt files in 9
+2024-01-15 12:40:54,355 DEBUG    [autoanalyzer.py] Valid is now 10
+2024-01-15 12:40:54,356 DEBUG    [autoanalyzer.py] Found 10 fish in C - Graphene 0.5 ppm (1st Batch)
+2024-01-15 12:40:54,356 DEBUG    [autoanalyzer.py] Found 1 txt files in 1
+2024-01-15 12:40:54,356 DEBUG    [autoanalyzer.py] Valid is now 1
+2024-01-15 12:40:54,357 DEBUG    [autoanalyzer.py] Found 1 txt files in 10
+2024-01-15 12:40:54,357 DEBUG    [autoanalyzer.py] Valid is now 2
+2024-01-15 12:40:54,357 DEBUG    [autoanalyzer.py] Found 1 txt files in 2
+2024-01-15 12:40:54,357 DEBUG    [autoanalyzer.py] Valid is now 3
+2024-01-15 12:40:54,357 DEBUG    [autoanalyzer.py] Found 1 txt files in 3
+2024-01-15 12:40:54,358 DEBUG    [autoanalyzer.py] Valid is now 4
+2024-01-15 12:40:54,358 DEBUG    [autoanalyzer.py] Found 1 txt files in 4
+2024-01-15 12:40:54,358 DEBUG    [autoanalyzer.py] Valid is now 5
+2024-01-15 12:40:54,358 DEBUG    [autoanalyzer.py] Found 1 txt files in 5
+2024-01-15 12:40:54,358 DEBUG    [autoanalyzer.py] Valid is now 6
+2024-01-15 12:40:54,359 DEBUG    [autoanalyzer.py] Found 1 txt files in 6
+2024-01-15 12:40:54,359 DEBUG    [autoanalyzer.py] Valid is now 7
+2024-01-15 12:40:54,359 DEBUG    [autoanalyzer.py] Found 1 txt files in 7
+2024-01-15 12:40:54,359 DEBUG    [autoanalyzer.py] Valid is now 8
+2024-01-15 12:40:54,360 DEBUG    [autoanalyzer.py] Found 1 txt files in 8
+2024-01-15 12:40:54,360 DEBUG    [autoanalyzer.py] Valid is now 9
+2024-01-15 12:40:54,360 DEBUG    [autoanalyzer.py] Found 1 txt files in 9
+2024-01-15 12:40:54,360 DEBUG    [autoanalyzer.py] Valid is now 10
+2024-01-15 12:40:54,361 DEBUG    [autoanalyzer.py] Found 10 fish in D - Graphene oxide 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,361 DEBUG    [autoanalyzer.py] Found 1 txt files in 1
+2024-01-15 12:40:54,361 DEBUG    [autoanalyzer.py] Valid is now 1
+2024-01-15 12:40:54,361 DEBUG    [autoanalyzer.py] Found 1 txt files in 10
+2024-01-15 12:40:54,361 DEBUG    [autoanalyzer.py] Valid is now 2
+2024-01-15 12:40:54,362 DEBUG    [autoanalyzer.py] Found 1 txt files in 2
+2024-01-15 12:40:54,362 DEBUG    [autoanalyzer.py] Valid is now 3
+2024-01-15 12:40:54,362 DEBUG    [autoanalyzer.py] Found 1 txt files in 3
+2024-01-15 12:40:54,362 DEBUG    [autoanalyzer.py] Valid is now 4
+2024-01-15 12:40:54,362 DEBUG    [autoanalyzer.py] Found 1 txt files in 4
+2024-01-15 12:40:54,363 DEBUG    [autoanalyzer.py] Valid is now 5
+2024-01-15 12:40:54,363 DEBUG    [autoanalyzer.py] Found 1 txt files in 5
+2024-01-15 12:40:54,363 DEBUG    [autoanalyzer.py] Valid is now 6
+2024-01-15 12:40:54,363 DEBUG    [autoanalyzer.py] Found 1 txt files in 6
+2024-01-15 12:40:54,364 DEBUG    [autoanalyzer.py] Valid is now 7
+2024-01-15 12:40:54,364 DEBUG    [autoanalyzer.py] Found 1 txt files in 7
+2024-01-15 12:40:54,364 DEBUG    [autoanalyzer.py] Valid is now 8
+2024-01-15 12:40:54,364 DEBUG    [autoanalyzer.py] Found 1 txt files in 8
+2024-01-15 12:40:54,365 DEBUG    [autoanalyzer.py] Valid is now 9
+2024-01-15 12:40:54,365 DEBUG    [autoanalyzer.py] Found 1 txt files in 9
+2024-01-15 12:40:54,365 DEBUG    [autoanalyzer.py] Valid is now 10
+2024-01-15 12:40:54,365 DEBUG    [autoanalyzer.py] Found 10 fish in E - Graphene oxide 1.0 ppm (1st Batch)
+2024-01-15 12:40:54,366 DEBUG    [autoanalyzer.py] Found 1 txt files in 1
+2024-01-15 12:40:54,366 DEBUG    [autoanalyzer.py] Valid is now 1
+2024-01-15 12:40:54,366 DEBUG    [autoanalyzer.py] Found 1 txt files in 10
+2024-01-15 12:40:54,366 DEBUG    [autoanalyzer.py] Valid is now 2
+2024-01-15 12:40:54,367 DEBUG    [autoanalyzer.py] Found 1 txt files in 2
+2024-01-15 12:40:54,367 DEBUG    [autoanalyzer.py] Valid is now 3
+2024-01-15 12:40:54,367 DEBUG    [autoanalyzer.py] Found 1 txt files in 3
+2024-01-15 12:40:54,367 DEBUG    [autoanalyzer.py] Valid is now 4
+2024-01-15 12:40:54,368 DEBUG    [autoanalyzer.py] Found 1 txt files in 4
+2024-01-15 12:40:54,368 DEBUG    [autoanalyzer.py] Valid is now 5
+2024-01-15 12:40:54,368 DEBUG    [autoanalyzer.py] Found 1 txt files in 5
+2024-01-15 12:40:54,368 DEBUG    [autoanalyzer.py] Valid is now 6
+2024-01-15 12:40:54,368 DEBUG    [autoanalyzer.py] Found 1 txt files in 6
+2024-01-15 12:40:54,369 DEBUG    [autoanalyzer.py] Valid is now 7
+2024-01-15 12:40:54,369 DEBUG    [autoanalyzer.py] Found 1 txt files in 7
+2024-01-15 12:40:54,369 DEBUG    [autoanalyzer.py] Valid is now 8
+2024-01-15 12:40:54,369 DEBUG    [autoanalyzer.py] Found 1 txt files in 8
+2024-01-15 12:40:54,369 DEBUG    [autoanalyzer.py] Valid is now 9
+2024-01-15 12:40:54,370 DEBUG    [autoanalyzer.py] Found 1 txt files in 9
+2024-01-15 12:40:54,370 DEBUG    [autoanalyzer.py] Valid is now 10
+2024-01-15 12:40:54,370 DEBUG    [autoanalyzer.py] Required params for A is 10
+2024-01-15 12:40:54,370 DEBUG    [autoanalyzer.py] Loading hyp file from D:\TestSave\Confirm\static\Batch 1\A\hyp_novel.json
+2024-01-15 12:40:54,371 DEBUG    [autoanalyzer.py] Found 10 parameters in TOP
+2024-01-15 12:40:54,371 DEBUG    [autoanalyzer.py] Found 10 parameters in CENTER
+2024-01-15 12:40:54,372 DEBUG    [autoanalyzer.py] Current params for A is 10
+2024-01-15 12:40:54,372 DEBUG    [autoanalyzer.py] Required params for B is 10
+2024-01-15 12:40:54,372 DEBUG    [autoanalyzer.py] Loading hyp file from D:\TestSave\Confirm\static\Batch 1\B\hyp_novel.json
+2024-01-15 12:40:54,372 DEBUG    [autoanalyzer.py] Found 10 parameters in TOP
+2024-01-15 12:40:54,372 DEBUG    [autoanalyzer.py] Found 10 parameters in CENTER
+2024-01-15 12:40:54,373 DEBUG    [autoanalyzer.py] Current params for B is 10
+2024-01-15 12:40:54,373 DEBUG    [autoanalyzer.py] Required params for C is 10
+2024-01-15 12:40:54,373 DEBUG    [autoanalyzer.py] Loading hyp file from D:\TestSave\Confirm\static\Batch 1\C\hyp_novel.json
+2024-01-15 12:40:54,373 DEBUG    [autoanalyzer.py] Found 10 parameters in TOP
+2024-01-15 12:40:54,373 DEBUG    [autoanalyzer.py] Found 10 parameters in CENTER
+2024-01-15 12:40:54,373 DEBUG    [autoanalyzer.py] Current params for C is 10
+2024-01-15 12:40:54,374 DEBUG    [autoanalyzer.py] Required params for D is 10
+2024-01-15 12:40:54,374 DEBUG    [autoanalyzer.py] Loading hyp file from D:\TestSave\Confirm\static\Batch 1\D\hyp_novel.json
+2024-01-15 12:40:54,374 DEBUG    [autoanalyzer.py] Found 10 parameters in TOP
+2024-01-15 12:40:54,374 DEBUG    [autoanalyzer.py] Found 10 parameters in CENTER
+2024-01-15 12:40:54,374 DEBUG    [autoanalyzer.py] Current params for D is 10
+2024-01-15 12:40:54,375 DEBUG    [autoanalyzer.py] Required params for E is 10
+2024-01-15 12:40:54,375 DEBUG    [autoanalyzer.py] Loading hyp file from D:\TestSave\Confirm\static\Batch 1\E\hyp_novel.json
+2024-01-15 12:40:54,375 DEBUG    [autoanalyzer.py] Found 10 parameters in TOP
+2024-01-15 12:40:54,375 DEBUG    [autoanalyzer.py] Found 10 parameters in CENTER
+2024-01-15 12:40:54,375 DEBUG    [autoanalyzer.py] Current params for E is 10
+2024-01-15 12:40:54,377 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\01 - Novel Tank Test\A - Control (1st Batch)
+2024-01-15 12:40:54,377 DEBUG    [batchprocess.py] Condition name is A
+2024-01-15 12:40:54,377 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\01 - Novel Tank Test\B - Graphene 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,377 DEBUG    [batchprocess.py] Condition name is B
+2024-01-15 12:40:54,377 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\01 - Novel Tank Test\C - Graphene 0.5 ppm (1st Batch)
+2024-01-15 12:40:54,377 DEBUG    [batchprocess.py] Condition name is C
+2024-01-15 12:40:54,377 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\01 - Novel Tank Test\D - Graphene oxide 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,378 DEBUG    [batchprocess.py] Condition name is D
+2024-01-15 12:40:54,378 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\01 - Novel Tank Test\E - Graphene oxide 1.0 ppm (1st Batch)
+2024-01-15 12:40:54,378 DEBUG    [batchprocess.py] Condition name is E
+2024-01-15 12:40:54,378 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\A\hyp_novel.json
+2024-01-15 12:40:54,378 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 420, 'CONVERSION RATE': 13.038, 'SEGMENT DURATION': 60, 'TOP': {'1': 1101, '2': 874, '3': 656, '4': 432, '5': 210, '6': 1101, '7': 882, '8': 656, '9': 432, '10': 210}, 'CENTER': {'1': 551, '2': 535, '3': 531, '4': 532, '5': 534, '6': 208, '7': 206, '8': 205, '9': 202, '10': 199}}
+2024-01-15 12:40:54,379 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,379 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\01 - Novel Tank Test\A - Control (1st Batch)
+2024-01-15 12:40:54,381 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\01 - Novel Tank Test\A - Control (1st Batch)
+2024-01-15 12:40:54,381 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,381 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,381 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,381 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,381 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,382 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,382 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,382 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,382 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,382 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,382 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,382 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,383 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\B\hyp_novel.json
+2024-01-15 12:40:54,383 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 420, 'CONVERSION RATE': 13.038, 'SEGMENT DURATION': 60, 'TOP': {'1': 1097, '2': 871, '3': 647, '4': 420, '5': 192, '6': 1097, '7': 871, '8': 647, '9': 420, '10': 192}, 'CENTER': {'1': 540, '2': 530, '3': 525, '4': 527, '5': 534, '6': 201, '7': 198, '8': 197, '9': 195, '10': 191}}
+2024-01-15 12:40:54,383 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,384 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\01 - Novel Tank Test\B - Graphene 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,385 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\01 - Novel Tank Test\B - Graphene 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,385 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,385 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,385 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,385 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,386 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,386 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,386 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,386 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,386 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,386 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,386 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,387 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,387 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\C\hyp_novel.json
+2024-01-15 12:40:54,387 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 420, 'CONVERSION RATE': 12.7215, 'SEGMENT DURATION': 60, 'TOP': {'1': 1067, '2': 843, '3': 627, '4': 409, '5': 188, '6': 1067, '7': 843, '8': 627, '9': 409, '10': 188}, 'CENTER': {'1': 526, '2': 516, '3': 514, '4': 515, '5': 520, '6': 198, '7': 195, '8': 195, '9': 191, '10': 190}}
+2024-01-15 12:40:54,387 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,388 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\01 - Novel Tank Test\C - Graphene 0.5 ppm (1st Batch)
+2024-01-15 12:40:54,389 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\01 - Novel Tank Test\C - Graphene 0.5 ppm (1st Batch)
+2024-01-15 12:40:54,389 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,389 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,389 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,390 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,390 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,390 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,390 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,390 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,390 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,391 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,391 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,391 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,391 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\D\hyp_novel.json
+2024-01-15 12:40:54,392 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 420, 'CONVERSION RATE': 13.038, 'SEGMENT DURATION': 60, 'TOP': {'1': 1106, '2': 877, '3': 659, '4': 435, '5': 210, '6': 1106, '7': 882, '8': 659, '9': 435, '10': 210}, 'CENTER': {'1': 532, '2': 521, '3': 519, '4': 522, '5': 530, '6': 195, '7': 193, '8': 194, '9': 193, '10': 191}}
+2024-01-15 12:40:54,392 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,392 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\01 - Novel Tank Test\D - Graphene oxide 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,394 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\01 - Novel Tank Test\D - Graphene oxide 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,394 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,394 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,394 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,394 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,395 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,395 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,395 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,395 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,395 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,395 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,395 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,396 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,396 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\E\hyp_novel.json
+2024-01-15 12:40:54,396 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 420, 'CONVERSION RATE': 13.038, 'SEGMENT DURATION': 60, 'TOP': {'1': 1106, '2': 877, '3': 659, '4': 435, '5': 210, '6': 1106, '7': 882, '8': 659, '9': 435, '10': 210}, 'CENTER': {'1': 530, '2': 522, '3': 520, '4': 523, '5': 529, '6': 194, '7': 194, '8': 195, '9': 194, '10': 194}}
+2024-01-15 12:40:54,396 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,397 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\01 - Novel Tank Test\E - Graphene oxide 1.0 ppm (1st Batch)
+2024-01-15 12:40:54,398 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\01 - Novel Tank Test\E - Graphene oxide 1.0 ppm (1st Batch)
+2024-01-15 12:40:54,398 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,398 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,398 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,399 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,399 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,399 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,399 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,399 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,399 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,400 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,400 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,400 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,400 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\01 - Novel Tank Test\A - Control (2nd Batch)
+2024-01-15 12:40:54,400 DEBUG    [batchprocess.py] Condition name is A
+2024-01-15 12:40:54,400 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\01 - Novel Tank Test\B - Graphene 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,400 DEBUG    [batchprocess.py] Condition name is B
+2024-01-15 12:40:54,401 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\01 - Novel Tank Test\C - Graphene 0.5 ppm (2nd Batch)
+2024-01-15 12:40:54,401 DEBUG    [batchprocess.py] Condition name is C
+2024-01-15 12:40:54,401 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\01 - Novel Tank Test\D - Graphene oxide 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,401 DEBUG    [batchprocess.py] Condition name is D
+2024-01-15 12:40:54,401 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\01 - Novel Tank Test\E - Graphene oxide 1.0 ppm (2nd Batch)
+2024-01-15 12:40:54,401 DEBUG    [batchprocess.py] Condition name is E
+2024-01-15 12:40:54,402 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\A\hyp_novel.json
+2024-01-15 12:40:54,402 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 420, 'CONVERSION RATE': 13.038, 'SEGMENT DURATION': 60, 'TOP': {'1': 1101, '2': 874, '3': 656, '4': 432, '5': 210, '6': 1101, '7': 874, '8': 656, '9': 432, '10': 210}, 'CENTER': {'1': 542, '2': 531, '3': 527, '4': 527, '5': 532, '6': 203, '7': 201, '8': 200, '9': 196, '10': 192}}
+2024-01-15 12:40:54,402 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,402 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\01 - Novel Tank Test\A - Control (2nd Batch)
+2024-01-15 12:40:54,404 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\01 - Novel Tank Test\A - Control (2nd Batch)
+2024-01-15 12:40:54,404 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,404 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,404 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,404 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,404 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,405 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,405 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,405 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,405 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,405 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,405 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,406 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,406 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\B\hyp_novel.json
+2024-01-15 12:40:54,406 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 420, 'CONVERSION RATE': 13.038, 'SEGMENT DURATION': 60, 'TOP': {'1': 1097, '2': 871, '3': 647, '4': 420, '5': 192, '6': 1097, '7': 871, '8': 647, '9': 420, '10': 192}, 'CENTER': {'1': 540, '2': 529, '3': 527, '4': 529, '5': 534, '6': 200, '7': 199, '8': 199, '9': 196, '10': 194}}
+2024-01-15 12:40:54,406 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,407 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\01 - Novel Tank Test\B - Graphene 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,408 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\01 - Novel Tank Test\B - Graphene 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,408 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,409 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,409 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,409 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,409 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,409 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,409 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,410 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,410 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,410 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,410 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,410 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,411 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\C\hyp_novel.json
+2024-01-15 12:40:54,411 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 420, 'CONVERSION RATE': 13.038, 'SEGMENT DURATION': 60, 'TOP': {'1': 1067, '2': 843, '3': 627, '4': 409, '5': 188, '6': 1067, '7': 843, '8': 627, '9': 409, '10': 188}, 'CENTER': {'1': 526, '2': 521, '3': 514, '4': 515, '5': 520, '6': 198, '7': 195, '8': 195, '9': 191, '10': 190}}
+2024-01-15 12:40:54,411 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,411 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\01 - Novel Tank Test\C - Graphene 0.5 ppm (2nd Batch)
+2024-01-15 12:40:54,413 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\01 - Novel Tank Test\C - Graphene 0.5 ppm (2nd Batch)
+2024-01-15 12:40:54,413 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,413 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,413 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,413 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,413 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,414 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,414 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,414 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,414 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,414 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,414 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,414 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,415 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\D\hyp_novel.json
+2024-01-15 12:40:54,415 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 420, 'CONVERSION RATE': 13.038, 'SEGMENT DURATION': 60, 'TOP': {'1': 1107, '2': 878, '3': 661, '4': 436, '5': 210, '6': 1107, '7': 878, '8': 661, '9': 436, '10': 210}, 'CENTER': {'1': 532, '2': 523, '3': 521, '4': 526, '5': 534, '6': 194, '7': 195, '8': 196, '9': 196, '10': 197}}
+2024-01-15 12:40:54,415 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,416 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\01 - Novel Tank Test\D - Graphene oxide 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,417 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\01 - Novel Tank Test\D - Graphene oxide 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,417 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,417 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,418 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,418 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,418 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,418 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,418 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,418 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,418 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,419 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,419 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,419 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,419 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\E\hyp_novel.json
+2024-01-15 12:40:54,419 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 420, 'CONVERSION RATE': 13.038, 'SEGMENT DURATION': 60, 'TOP': {'1': 1107, '2': 878, '3': 661, '4': 436, '5': 210, '6': 1107, '7': 878, '8': 661, '9': 436, '10': 210}, 'CENTER': {'1': 532, '2': 523, '3': 521, '4': 526, '5': 534, '6': 194, '7': 195, '8': 196, '9': 196, '10': 197}}
+2024-01-15 12:40:54,420 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,420 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\01 - Novel Tank Test\E - Graphene oxide 1.0 ppm (2nd Batch)
+2024-01-15 12:40:54,421 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\01 - Novel Tank Test\E - Graphene oxide 1.0 ppm (2nd Batch)
+2024-01-15 12:40:54,421 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,422 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,422 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,422 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,422 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,422 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,422 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,422 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,423 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,423 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,423 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,423 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,424 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\02 - Shoaling Test\A - Control (1st Batch)
+2024-01-15 12:40:54,424 DEBUG    [batchprocess.py] Condition name is A
+2024-01-15 12:40:54,424 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\02 - Shoaling Test\B - Graphene 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,424 DEBUG    [batchprocess.py] Condition name is B
+2024-01-15 12:40:54,425 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\02 - Shoaling Test\C - Graphene 0.5 ppm (1st Batch)
+2024-01-15 12:40:54,425 DEBUG    [batchprocess.py] Condition name is C
+2024-01-15 12:40:54,425 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\02 - Shoaling Test\D - Graphene oxide 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,425 DEBUG    [batchprocess.py] Condition name is D
+2024-01-15 12:40:54,425 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\02 - Shoaling Test\E - Graphene oxide 1.0 ppm (1st Batch)
+2024-01-15 12:40:54,425 DEBUG    [batchprocess.py] Condition name is E
+2024-01-15 12:40:54,426 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\A\hyp_shoaling.json
+2024-01-15 12:40:54,426 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 13.038, 'TOP': {'1': 1101, '2': 873, '3': 656, '4': 430, '5': 208, '6': 1101, '7': 887}, 'CENTER': {'1': 543, '2': 531, '3': 526, '4': 528, '5': 532, '6': 206, '7': 201}}
+2024-01-15 12:40:54,426 INFO     [batchprocess.py] Using trajectories_nogaps.txt as trajectory format
+2024-01-15 12:40:54,426 DEBUG    [batchprocess.py] Found 7 directories under D:\TestSave\Confirm\02 - Shoaling Test\A - Control (1st Batch)
+2024-01-15 12:40:54,427 INFO     [batchprocess.py] Found 7 existed trajectories in D:\TestSave\Confirm\02 - Shoaling Test\A - Control (1st Batch)
+2024-01-15 12:40:54,428 DEBUG    [batchprocess.py] Existed trajectories: 7, pseudo trajectories: 0
+2024-01-15 12:40:54,428 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,428 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,428 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,428 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,428 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,428 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,429 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,429 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,429 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\B\hyp_shoaling.json
+2024-01-15 12:40:54,429 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 13.038, 'TOP': {'1': 1097, '2': 871, '3': 647, '4': 419, '5': 192, '6': 1097}, 'CENTER': {'1': 540, '2': 530, '3': 526, '4': 528, '5': 533, '6': 199}}
+2024-01-15 12:40:54,430 INFO     [batchprocess.py] Using trajectories_nogaps.txt as trajectory format
+2024-01-15 12:40:54,430 DEBUG    [batchprocess.py] Found 6 directories under D:\TestSave\Confirm\02 - Shoaling Test\B - Graphene 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,431 INFO     [batchprocess.py] Found 6 existed trajectories in D:\TestSave\Confirm\02 - Shoaling Test\B - Graphene 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,431 DEBUG    [batchprocess.py] Existed trajectories: 6, pseudo trajectories: 0
+2024-01-15 12:40:54,431 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,431 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,431 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,432 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,432 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,432 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,432 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,432 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\C\hyp_shoaling.json
+2024-01-15 12:40:54,433 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.7215, 'TOP': {'1': 1067, '2': 842, '3': 627, '4': 407, '5': 186, '6': 1067, '7': 842}, 'CENTER': {'1': 526, '2': 517, '3': 512, '4': 514, '5': 518, '6': 196, '7': 194}}
+2024-01-15 12:40:54,433 INFO     [batchprocess.py] Using trajectories_nogaps.txt as trajectory format
+2024-01-15 12:40:54,433 DEBUG    [batchprocess.py] Found 7 directories under D:\TestSave\Confirm\02 - Shoaling Test\C - Graphene 0.5 ppm (1st Batch)
+2024-01-15 12:40:54,434 INFO     [batchprocess.py] Found 7 existed trajectories in D:\TestSave\Confirm\02 - Shoaling Test\C - Graphene 0.5 ppm (1st Batch)
+2024-01-15 12:40:54,434 DEBUG    [batchprocess.py] Existed trajectories: 7, pseudo trajectories: 0
+2024-01-15 12:40:54,434 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,435 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,435 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,435 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,435 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,435 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,435 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,435 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,436 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\D\hyp_shoaling.json
+2024-01-15 12:40:54,436 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9114, 'TOP': {'1': 1105, '2': 876, '3': 660, '4': 1101, '5': 209, '6': 1105, '7': 876}, 'CENTER': {'1': 531, '2': 523, '3': 521, '4': 528, '5': 536, '6': 193, '7': 195}}
+2024-01-15 12:40:54,436 INFO     [batchprocess.py] Using trajectories_nogaps.txt as trajectory format
+2024-01-15 12:40:54,437 DEBUG    [batchprocess.py] Found 7 directories under D:\TestSave\Confirm\02 - Shoaling Test\D - Graphene oxide 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,437 INFO     [batchprocess.py] Found 7 existed trajectories in D:\TestSave\Confirm\02 - Shoaling Test\D - Graphene oxide 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,438 DEBUG    [batchprocess.py] Existed trajectories: 7, pseudo trajectories: 0
+2024-01-15 12:40:54,438 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,438 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,438 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,438 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,439 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,439 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,439 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,439 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,439 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\E\hyp_shoaling.json
+2024-01-15 12:40:54,440 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 13.038, 'TOP': {'1': 1101, '2': 873, '3': 656, '4': 430, '5': 1101, '6': 887}, 'CENTER': {'1': 543, '2': 531, '3': 526, '4': 528, '5': 206, '6': 201}}
+2024-01-15 12:40:54,440 INFO     [batchprocess.py] Using trajectories_nogaps.txt as trajectory format
+2024-01-15 12:40:54,440 DEBUG    [batchprocess.py] Found 6 directories under D:\TestSave\Confirm\02 - Shoaling Test\E - Graphene oxide 1.0 ppm (1st Batch)
+2024-01-15 12:40:54,441 INFO     [batchprocess.py] Found 6 existed trajectories in D:\TestSave\Confirm\02 - Shoaling Test\E - Graphene oxide 1.0 ppm (1st Batch)
+2024-01-15 12:40:54,441 DEBUG    [batchprocess.py] Existed trajectories: 6, pseudo trajectories: 0
+2024-01-15 12:40:54,441 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,442 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,442 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,442 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,442 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,442 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,442 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,442 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\02 - Shoaling Test\A - Control (2nd Batch)
+2024-01-15 12:40:54,442 DEBUG    [batchprocess.py] Condition name is A
+2024-01-15 12:40:54,442 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\02 - Shoaling Test\B - Graphene 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,443 DEBUG    [batchprocess.py] Condition name is B
+2024-01-15 12:40:54,443 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\02 - Shoaling Test\C - Graphene 0.5 ppm (2nd Batch)
+2024-01-15 12:40:54,443 DEBUG    [batchprocess.py] Condition name is C
+2024-01-15 12:40:54,443 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\02 - Shoaling Test\D - Graphene oxide 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,443 DEBUG    [batchprocess.py] Condition name is D
+2024-01-15 12:40:54,443 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\02 - Shoaling Test\E - Graphene oxide 1.0 ppm (2nd Batch)
+2024-01-15 12:40:54,443 DEBUG    [batchprocess.py] Condition name is E
+2024-01-15 12:40:54,444 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\A\hyp_shoaling.json
+2024-01-15 12:40:54,444 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9114, 'TOP': {'1': 1142, '2': 915, '3': 696}, 'CENTER': {'1': 539, '2': 528, '3': 525}}
+2024-01-15 12:40:54,444 INFO     [batchprocess.py] Using trajectories_nogaps.txt as trajectory format
+2024-01-15 12:40:54,444 DEBUG    [batchprocess.py] Found 3 directories under D:\TestSave\Confirm\02 - Shoaling Test\A - Control (2nd Batch)
+2024-01-15 12:40:54,445 WARNING  [batchprocess.py] No trajectories found in D:\TestSave\Confirm\02 - Shoaling Test\A - Control (2nd Batch)
+2024-01-15 12:40:54,445 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\B\hyp_shoaling.json
+2024-01-15 12:40:54,446 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9114, 'TOP': {'1': 1142, '2': 915, '3': 696}, 'CENTER': {'1': 539, '2': 528, '3': 525}}
+2024-01-15 12:40:54,446 INFO     [batchprocess.py] Using trajectories_nogaps.txt as trajectory format
+2024-01-15 12:40:54,446 DEBUG    [batchprocess.py] Found 3 directories under D:\TestSave\Confirm\02 - Shoaling Test\B - Graphene 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,446 WARNING  [batchprocess.py] No trajectories found in D:\TestSave\Confirm\02 - Shoaling Test\B - Graphene 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,447 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\C\hyp_shoaling.json
+2024-01-15 12:40:54,447 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9114, 'TOP': {'1': 1142, '2': 915, '3': 696}, 'CENTER': {'1': 539, '2': 528, '3': 525}}
+2024-01-15 12:40:54,447 INFO     [batchprocess.py] Using trajectories_nogaps.txt as trajectory format
+2024-01-15 12:40:54,447 DEBUG    [batchprocess.py] Found 3 directories under D:\TestSave\Confirm\02 - Shoaling Test\C - Graphene 0.5 ppm (2nd Batch)
+2024-01-15 12:40:54,448 WARNING  [batchprocess.py] No trajectories found in D:\TestSave\Confirm\02 - Shoaling Test\C - Graphene 0.5 ppm (2nd Batch)
+2024-01-15 12:40:54,448 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\D\hyp_shoaling.json
+2024-01-15 12:40:54,448 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9114, 'TOP': {'1': 1142, '2': 915, '3': 696}, 'CENTER': {'1': 539, '2': 528, '3': 525}}
+2024-01-15 12:40:54,448 INFO     [batchprocess.py] Using trajectories_nogaps.txt as trajectory format
+2024-01-15 12:40:54,449 DEBUG    [batchprocess.py] Found 3 directories under D:\TestSave\Confirm\02 - Shoaling Test\D - Graphene oxide 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,449 WARNING  [batchprocess.py] No trajectories found in D:\TestSave\Confirm\02 - Shoaling Test\D - Graphene oxide 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,450 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\E\hyp_shoaling.json
+2024-01-15 12:40:54,450 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9114, 'TOP': {'1': 1142, '2': 915, '3': 696}, 'CENTER': {'1': 539, '2': 528, '3': 525}}
+2024-01-15 12:40:54,450 INFO     [batchprocess.py] Using trajectories_nogaps.txt as trajectory format
+2024-01-15 12:40:54,451 DEBUG    [batchprocess.py] Found 3 directories under D:\TestSave\Confirm\02 - Shoaling Test\E - Graphene oxide 1.0 ppm (2nd Batch)
+2024-01-15 12:40:54,451 WARNING  [batchprocess.py] No trajectories found in D:\TestSave\Confirm\02 - Shoaling Test\E - Graphene oxide 1.0 ppm (2nd Batch)
+2024-01-15 12:40:54,452 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\03 - Mirror Biting Test\A - Control (1st Batch)
+2024-01-15 12:40:54,452 DEBUG    [batchprocess.py] Condition name is A
+2024-01-15 12:40:54,452 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\03 - Mirror Biting Test\B - Graphene 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,453 DEBUG    [batchprocess.py] Condition name is B
+2024-01-15 12:40:54,453 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\03 - Mirror Biting Test\C - Graphene 0.5 ppm (1st Batch)
+2024-01-15 12:40:54,453 DEBUG    [batchprocess.py] Condition name is C
+2024-01-15 12:40:54,453 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\03 - Mirror Biting Test\D - Graphene oxide 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,453 DEBUG    [batchprocess.py] Condition name is D
+2024-01-15 12:40:54,454 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\03 - Mirror Biting Test\E - Graphene oxide 1.0 ppm (1st Batch)
+2024-01-15 12:40:54,454 DEBUG    [batchprocess.py] Condition name is E
+2024-01-15 12:40:54,455 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\A\hyp_mirror.json
+2024-01-15 12:40:54,455 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9747, 'ZONE WIDTH': 4, 'MIRROR': {'1': [404, 0], '2': [394, 0], '3': [390, 0], '4': [390, 0], '5': [395, 0], '6': [333, 1], '7': [329, 1], '8': [328, 1], '9': [324, 1], '10': [321, 1]}, 'MIRROR ZONE': {'1': [455.8988, 0], '2': [445.8988, 0], '3': [441.8988, 0], '4': [441.8988, 0], '5': [446.8988, 0], '6': [281.1012, 1], '7': [277.1012, 1], '8': [276.1012, 1], '9': [272.1012, 1], '10': [269.1012, 1]}}
+2024-01-15 12:40:54,455 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,456 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\03 - Mirror Biting Test\A - Control (1st Batch)
+2024-01-15 12:40:54,457 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\03 - Mirror Biting Test\A - Control (1st Batch)
+2024-01-15 12:40:54,457 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,458 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,458 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,458 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,458 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,458 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,458 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,458 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,459 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,459 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,459 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,459 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,459 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\B\hyp_mirror.json
+2024-01-15 12:40:54,460 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9114, 'ZONE WIDTH': 4, 'MIRROR': {'1': [400, 0], '2': [391, 0], '3': [388, 0], '4': [390, 0], '5': [392, 0], '6': [329, 1], '7': [330, 1], '8': [326, 1], '9': [324, 1], '10': [319, 1]}, 'MIRROR ZONE': {'1': [451.6456, 0], '2': [442.6456, 0], '3': [439.6456, 0], '4': [441.6456, 0], '5': [443.6456, 0], '6': [277.3544, 1], '7': [278.3544, 1], '8': [274.3544, 1], '9': [272.3544, 1], '10': [267.3544, 1]}}
+2024-01-15 12:40:54,460 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,460 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\03 - Mirror Biting Test\B - Graphene 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,462 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\03 - Mirror Biting Test\B - Graphene 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,462 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,462 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,462 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,462 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,462 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,462 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,463 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,463 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,463 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,463 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,463 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,463 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,465 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\C\hyp_mirror.json
+2024-01-15 12:40:54,465 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 13.038, 'ZONE WIDTH': 4, 'MIRROR': {'1': [400, 0], '2': [393, 0], '3': [390, 0], '4': [392, 0], '5': [398, 0], '6': [330, 1], '7': [327, 1], '8': [328, 1], '9': [326, 1], '10': [322, 1]}, 'MIRROR ZONE': {'1': [452.152, 0], '2': [445.152, 0], '3': [442.152, 0], '4': [444.152, 0], '5': [450.152, 0], '6': [277.848, 1], '7': [274.848, 1], '8': [275.848, 1], '9': [273.848, 1], '10': [269.848, 1]}}
+2024-01-15 12:40:54,465 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,466 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\03 - Mirror Biting Test\C - Graphene 0.5 ppm (1st Batch)
+2024-01-15 12:40:54,467 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\03 - Mirror Biting Test\C - Graphene 0.5 ppm (1st Batch)
+2024-01-15 12:40:54,467 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,467 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,468 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,468 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,468 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,468 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,468 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,468 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,468 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,469 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,469 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,469 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,470 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\D\hyp_mirror.json
+2024-01-15 12:40:54,470 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9114, 'ZONE WIDTH': 4, 'MIRROR': {'1': [401, 0], '2': [391, 0], '3': [387, 0], '4': [388, 0], '5': [390, 0], '6': [331, 1], '7': [328, 1], '8': [329, 1], '9': [323, 1], '10': [320, 1]}, 'MIRROR ZONE': {'1': [452.6456, 0], '2': [442.6456, 0], '3': [438.6456, 0], '4': [439.6456, 0], '5': [441.6456, 0], '6': [279.3544, 1], '7': [276.3544, 1], '8': [277.3544, 1], '9': [271.3544, 1], '10': [268.3544, 1]}}
+2024-01-15 12:40:54,470 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,471 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\03 - Mirror Biting Test\D - Graphene oxide 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,472 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\03 - Mirror Biting Test\D - Graphene oxide 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,472 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,472 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,472 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,473 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,473 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,473 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,473 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,473 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,473 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,473 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,474 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,474 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,474 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\E\hyp_mirror.json
+2024-01-15 12:40:54,474 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.5949, 'ZONE WIDTH': 4, 'MIRROR': {'1': [400, 0], '2': [393, 0], '3': [388, 0], '4': [390, 0], '5': [393, 0], '6': [331, 1], '7': [329, 1], '8': [330, 1], '9': [324, 1], '10': [322, 1]}, 'MIRROR ZONE': {'1': [450.3796, 0], '2': [443.3796, 0], '3': [438.3796, 0], '4': [440.3796, 0], '5': [443.3796, 0], '6': [280.6204, 1], '7': [278.6204, 1], '8': [279.6204, 1], '9': [273.6204, 1], '10': [271.6204, 1]}}
+2024-01-15 12:40:54,475 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,475 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\03 - Mirror Biting Test\E - Graphene oxide 1.0 ppm (1st Batch)
+2024-01-15 12:40:54,476 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\03 - Mirror Biting Test\E - Graphene oxide 1.0 ppm (1st Batch)
+2024-01-15 12:40:54,476 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,477 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,477 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,477 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,477 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,477 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,477 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,478 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,478 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,478 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,478 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,478 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,478 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\03 - Mirror Biting Test\A - Control (2nd Batch)
+2024-01-15 12:40:54,478 DEBUG    [batchprocess.py] Condition name is A
+2024-01-15 12:40:54,479 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\03 - Mirror Biting Test\B - Graphene 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,479 DEBUG    [batchprocess.py] Condition name is B
+2024-01-15 12:40:54,479 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\03 - Mirror Biting Test\C - Graphene 0.5 ppm (2nd Batch)
+2024-01-15 12:40:54,479 DEBUG    [batchprocess.py] Condition name is C
+2024-01-15 12:40:54,479 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\03 - Mirror Biting Test\D - Graphene oxide 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,479 DEBUG    [batchprocess.py] Condition name is D
+2024-01-15 12:40:54,479 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\03 - Mirror Biting Test\E - Graphene oxide 1.0 ppm (2nd Batch)
+2024-01-15 12:40:54,480 DEBUG    [batchprocess.py] Condition name is E
+2024-01-15 12:40:54,480 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\A\hyp_mirror.json
+2024-01-15 12:40:54,480 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9747, 'ZONE WIDTH': 4, 'MIRROR': {'1': [402, 0], '2': [395, 0], '3': [392, 0], '4': [393, 0], '5': [397, 0], '6': [333, 1], '7': [327, 1], '8': [327, 1], '9': [326, 1], '10': [323, 1], '11': [402, 0], '12': [395, 0]}, 'MIRROR ZONE': {'1': [453.8988, 0], '2': [446.8988, 0], '3': [443.8988, 0], '4': [444.8988, 0], '5': [448.8988, 0], '6': [281.1012, 1], '7': [275.1012, 1], '8': [275.1012, 1], '9': [274.1012, 1], '10': [271.1012, 1], '11': [453.8988, 0], '12': [446.8988, 0]}}
+2024-01-15 12:40:54,481 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,481 DEBUG    [batchprocess.py] Found 12 directories under D:\TestSave\Confirm\03 - Mirror Biting Test\A - Control (2nd Batch)
+2024-01-15 12:40:54,482 INFO     [batchprocess.py] Found 12 existed trajectories in D:\TestSave\Confirm\03 - Mirror Biting Test\A - Control (2nd Batch)
+2024-01-15 12:40:54,483 DEBUG    [batchprocess.py] Existed trajectories: 12, pseudo trajectories: 0
+2024-01-15 12:40:54,483 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,483 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,483 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,483 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,483 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,484 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,484 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,484 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,484 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,484 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,484 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,484 DEBUG    [batchprocess.py] Removing [] from 11
+2024-01-15 12:40:54,485 DEBUG    [batchprocess.py] Removing [] from 12
+2024-01-15 12:40:54,485 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\B\hyp_mirror.json
+2024-01-15 12:40:54,485 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9114, 'ZONE WIDTH': 4, 'MIRROR': {'1': [401, 0], '2': [393, 0], '3': [390, 0], '4': [393, 0], '5': [396, 0], '6': [328, 1], '7': [332, 1], '8': [328, 1], '9': [327, 1], '10': [322, 1]}, 'MIRROR ZONE': {'1': [452.6456, 0], '2': [444.6456, 0], '3': [441.6456, 0], '4': [444.6456, 0], '5': [447.6456, 0], '6': [276.3544, 1], '7': [280.3544, 1], '8': [276.3544, 1], '9': [275.3544, 1], '10': [270.3544, 1]}}
+2024-01-15 12:40:54,485 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,486 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\03 - Mirror Biting Test\B - Graphene 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,487 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\03 - Mirror Biting Test\B - Graphene 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,487 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,488 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,488 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,488 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,488 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,488 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,488 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,489 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,489 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,489 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,489 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,489 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,490 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\C\hyp_mirror.json
+2024-01-15 12:40:54,490 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 13.038, 'ZONE WIDTH': 4, 'MIRROR': {'1': [399, 0], '2': [393, 0], '3': [390, 0], '4': [391, 0], '5': [397, 0], '6': [330, 1], '7': [327, 1], '8': [328, 1], '9': [327, 1], '10': [323, 1], '11': [400, 0], '12': [389, 0]}, 'MIRROR ZONE': {'1': [451.152, 0], '2': [445.152, 0], '3': [442.152, 0], '4': [443.152, 0], '5': [449.152, 0], '6': [277.848, 1], '7': [274.848, 1], '8': [275.848, 1], '9': [274.848, 1], '10': [270.848, 1], '11': [452.152, 0], '12': [441.152, 0]}}
+2024-01-15 12:40:54,490 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,491 DEBUG    [batchprocess.py] Found 12 directories under D:\TestSave\Confirm\03 - Mirror Biting Test\C - Graphene 0.5 ppm (2nd Batch)
+2024-01-15 12:40:54,492 INFO     [batchprocess.py] Found 12 existed trajectories in D:\TestSave\Confirm\03 - Mirror Biting Test\C - Graphene 0.5 ppm (2nd Batch)
+2024-01-15 12:40:54,492 DEBUG    [batchprocess.py] Existed trajectories: 12, pseudo trajectories: 0
+2024-01-15 12:40:54,493 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,493 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,493 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,493 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,493 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,493 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,493 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,494 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,494 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,494 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,494 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,494 DEBUG    [batchprocess.py] Removing [] from 11
+2024-01-15 12:40:54,494 DEBUG    [batchprocess.py] Removing [] from 12
+2024-01-15 12:40:54,495 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\D\hyp_mirror.json
+2024-01-15 12:40:54,495 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9114, 'ZONE WIDTH': 4, 'MIRROR': {'1': [402, 0], '2': [392, 0], '3': [387, 0], '4': [390, 0], '5': [393, 0], '6': [330, 1], '7': [328, 1], '8': [330, 1], '9': [325, 1], '10': [322, 1]}, 'MIRROR ZONE': {'1': [453.6456, 0], '2': [443.6456, 0], '3': [438.6456, 0], '4': [441.6456, 0], '5': [444.6456, 0], '6': [278.3544, 1], '7': [276.3544, 1], '8': [278.3544, 1], '9': [273.3544, 1], '10': [270.3544, 1]}}
+2024-01-15 12:40:54,495 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,495 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\03 - Mirror Biting Test\D - Graphene oxide 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,497 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\03 - Mirror Biting Test\D - Graphene oxide 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,497 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,497 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,497 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,497 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,497 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,498 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,498 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,498 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,498 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,498 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,498 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,498 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,499 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\E\hyp_mirror.json
+2024-01-15 12:40:54,499 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.5949, 'ZONE WIDTH': 4, 'MIRROR': {'1': [400, 0], '2': [391, 0], '3': [387, 0], '4': [389, 0], '5': [392, 0], '6': [330, 1], '7': [329, 1], '8': [329, 1], '9': [323, 1], '10': [322, 1]}, 'MIRROR ZONE': {'1': [450.3796, 0], '2': [441.3796, 0], '3': [437.3796, 0], '4': [439.3796, 0], '5': [442.3796, 0], '6': [279.6204, 1], '7': [278.6204, 1], '8': [278.6204, 1], '9': [272.6204, 1], '10': [271.6204, 1]}}
+2024-01-15 12:40:54,499 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,500 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\03 - Mirror Biting Test\E - Graphene oxide 1.0 ppm (2nd Batch)
+2024-01-15 12:40:54,502 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\03 - Mirror Biting Test\E - Graphene oxide 1.0 ppm (2nd Batch)
+2024-01-15 12:40:54,502 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,502 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,502 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,503 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,503 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,503 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,503 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,504 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,504 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,504 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,504 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,504 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,505 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\04 - Social Interaction Test\A - Control (1st Batch)
+2024-01-15 12:40:54,505 DEBUG    [batchprocess.py] Condition name is A
+2024-01-15 12:40:54,505 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\04 - Social Interaction Test\B - Graphene 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,505 DEBUG    [batchprocess.py] Condition name is B
+2024-01-15 12:40:54,506 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\04 - Social Interaction Test\C - Graphene 0.5 ppm (1st Batch)
+2024-01-15 12:40:54,506 DEBUG    [batchprocess.py] Condition name is C
+2024-01-15 12:40:54,506 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\04 - Social Interaction Test\D - Graphene oxide 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,506 DEBUG    [batchprocess.py] Condition name is D
+2024-01-15 12:40:54,506 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\04 - Social Interaction Test\E - Graphene oxide 1.0 ppm (1st Batch)
+2024-01-15 12:40:54,506 DEBUG    [batchprocess.py] Condition name is E
+2024-01-15 12:40:54,507 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\A\hyp_social.json
+2024-01-15 12:40:54,507 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9747, 'ZONE WIDTH': 3, 'SEPARATOR': {'1': [491, 0], '2': [484, 0], '3': [480, 0], '4': [482, 0], '5': [524, 0], '6': [197, 1], '7': [195, 1], '8': [197, 1], '9': [190, 1], '10': [188, 1]}, 'SEPARATOR ZONE': {'1': [452.0759, 0], '2': [445.0759, 0], '3': [441.0759, 0], '4': [443.0759, 0], '5': [485.0759, 0], '6': [235.9241, 1], '7': [233.9241, 1], '8': [235.9241, 1], '9': [228.9241, 1], '10': [226.9241, 1]}}
+2024-01-15 12:40:54,507 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,508 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\04 - Social Interaction Test\A - Control (1st Batch)
+2024-01-15 12:40:54,509 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\04 - Social Interaction Test\A - Control (1st Batch)
+2024-01-15 12:40:54,509 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,509 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,509 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,509 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,511 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,511 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,511 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,511 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,511 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,511 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,511 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,512 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,512 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\B\hyp_social.json
+2024-01-15 12:40:54,512 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9114, 'ZONE WIDTH': 3, 'SEPARATOR': {'1': [531, 0], '2': [523, 0], '3': [520, 0], '4': [523, 0], '5': [526, 0], '6': [199, 1], '7': [194, 1], '8': [194, 1], '9': [194, 1], '10': [190, 1]}, 'SEPARATOR ZONE': {'1': [492.2658, 0], '2': [484.2658, 0], '3': [481.2658, 0], '4': [484.2658, 0], '5': [487.2658, 0], '6': [237.7342, 1], '7': [232.7342, 1], '8': [232.7342, 1], '9': [232.7342, 1], '10': [228.7342, 1]}}
+2024-01-15 12:40:54,512 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,513 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\04 - Social Interaction Test\B - Graphene 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,514 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\04 - Social Interaction Test\B - Graphene 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,514 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,515 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,515 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,515 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,515 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,515 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,515 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,516 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,516 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,516 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,516 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,516 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,517 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\C\hyp_social.json
+2024-01-15 12:40:54,517 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9747, 'ZONE WIDTH': 3, 'SEPARATOR': {'1': [532, 0], '2': [525, 0], '3': [521, 0], '4': [525, 0], '5': [529, 0], '6': [192, 1], '7': [194, 1], '8': [194, 1], '9': [194, 1], '10': [194, 1]}, 'SEPARATOR ZONE': {'1': [493.0759, 0], '2': [486.0759, 0], '3': [482.0759, 0], '4': [486.0759, 0], '5': [490.0759, 0], '6': [230.9241, 1], '7': [232.9241, 1], '8': [232.9241, 1], '9': [232.9241, 1], '10': [232.9241, 1]}}
+2024-01-15 12:40:54,517 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,518 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\04 - Social Interaction Test\C - Graphene 0.5 ppm (1st Batch)
+2024-01-15 12:40:54,519 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\04 - Social Interaction Test\C - Graphene 0.5 ppm (1st Batch)
+2024-01-15 12:40:54,520 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,520 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,520 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,520 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,520 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,520 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,520 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,521 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,521 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,521 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,521 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,521 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,522 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\D\hyp_social.json
+2024-01-15 12:40:54,522 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.5949, 'ZONE WIDTH': 3, 'SEPARATOR': {'1': [527, 0], '2': [516, 0], '3': [516, 0], '4': [518, 0], '5': [521, 0], '6': [202, 1], '7': [193, 1], '8': [199, 1], '9': [199, 1], '10': [192, 1]}, 'SEPARATOR ZONE': {'1': [489.2153, 0], '2': [478.2153, 0], '3': [478.2153, 0], '4': [480.2153, 0], '5': [483.2153, 0], '6': [239.7847, 1], '7': [230.7847, 1], '8': [236.7847, 1], '9': [236.7847, 1], '10': [229.7847, 1]}}
+2024-01-15 12:40:54,522 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,523 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\04 - Social Interaction Test\D - Graphene oxide 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,524 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\04 - Social Interaction Test\D - Graphene oxide 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,524 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,524 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,524 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,524 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,525 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,525 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,525 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,525 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,525 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,525 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,525 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,526 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,526 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\E\hyp_social.json
+2024-01-15 12:40:54,526 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.6582, 'ZONE WIDTH': 3, 'SEPARATOR': {'1': [528, 0], '2': [519, 0], '3': [517, 0], '4': [519, 0], '5': [520, 0], '6': [202, 1], '7': [200, 1], '8': [200, 1], '9': [196, 1], '10': [196, 1]}, 'SEPARATOR ZONE': {'1': [490.0254, 0], '2': [481.0254, 0], '3': [479.0254, 0], '4': [481.0254, 0], '5': [482.0254, 0], '6': [239.9746, 1], '7': [237.9746, 1], '8': [237.9746, 1], '9': [233.9746, 1], '10': [233.9746, 1]}}
+2024-01-15 12:40:54,526 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,527 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\04 - Social Interaction Test\E - Graphene oxide 1.0 ppm (1st Batch)
+2024-01-15 12:40:54,528 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\04 - Social Interaction Test\E - Graphene oxide 1.0 ppm (1st Batch)
+2024-01-15 12:40:54,528 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,528 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,528 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,528 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,529 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,529 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,529 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,529 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,529 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,529 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,529 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,530 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,530 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\04 - Social Interaction Test\A - Control (2nd Batch)
+2024-01-15 12:40:54,530 DEBUG    [batchprocess.py] Condition name is A
+2024-01-15 12:40:54,530 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\04 - Social Interaction Test\B - Graphene 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,530 DEBUG    [batchprocess.py] Condition name is B
+2024-01-15 12:40:54,530 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\04 - Social Interaction Test\C - Graphene 0.5 ppm (2nd Batch)
+2024-01-15 12:40:54,530 DEBUG    [batchprocess.py] Condition name is C
+2024-01-15 12:40:54,531 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\04 - Social Interaction Test\D - Graphene oxide 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,531 DEBUG    [batchprocess.py] Condition name is D
+2024-01-15 12:40:54,531 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\04 - Social Interaction Test\E - Graphene oxide 1.0 ppm (2nd Batch)
+2024-01-15 12:40:54,531 DEBUG    [batchprocess.py] Condition name is E
+2024-01-15 12:40:54,532 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\A\hyp_social.json
+2024-01-15 12:40:54,532 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9747, 'ZONE WIDTH': 3, 'SEPARATOR': {'1': [533, 0], '2': [524, 0], '3': [521, 0], '4': [524, 0], '5': [530, 0], '6': [197, 1], '7': [197, 1], '8': [197, 1], '9': [193, 1], '10': [193, 1], '11': [534, 0], '12': [525, 0]}, 'SEPARATOR ZONE': {'1': [494.0759, 0], '2': [485.0759, 0], '3': [482.0759, 0], '4': [485.0759, 0], '5': [491.0759, 0], '6': [235.9241, 1], '7': [235.9241, 1], '8': [235.9241, 1], '9': [231.9241, 1], '10': [231.9241, 1], '11': [495.0759, 0], '12': [486.0759, 0]}}
+2024-01-15 12:40:54,532 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,533 DEBUG    [batchprocess.py] Found 12 directories under D:\TestSave\Confirm\04 - Social Interaction Test\A - Control (2nd Batch)
+2024-01-15 12:40:54,534 INFO     [batchprocess.py] Found 12 existed trajectories in D:\TestSave\Confirm\04 - Social Interaction Test\A - Control (2nd Batch)
+2024-01-15 12:40:54,535 DEBUG    [batchprocess.py] Existed trajectories: 12, pseudo trajectories: 0
+2024-01-15 12:40:54,535 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,535 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,535 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,535 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,536 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,536 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,536 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,536 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,536 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,536 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,537 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,537 DEBUG    [batchprocess.py] Removing [] from 11
+2024-01-15 12:40:54,537 DEBUG    [batchprocess.py] Removing [] from 12
+2024-01-15 12:40:54,538 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\B\hyp_social.json
+2024-01-15 12:40:54,538 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9114, 'ZONE WIDTH': 3, 'SEPARATOR': {'1': [535, 0], '2': [522, 0], '3': [518, 0], '4': [522, 0], '5': [522, 0], '6': [199, 1], '7': [193, 1], '8': [193, 1], '9': [193, 1], '10': [188, 1]}, 'SEPARATOR ZONE': {'1': [496.2658, 0], '2': [483.2658, 0], '3': [479.2658, 0], '4': [483.2658, 0], '5': [483.2658, 0], '6': [237.7342, 1], '7': [231.7342, 1], '8': [231.7342, 1], '9': [231.7342, 1], '10': [226.7342, 1]}}
+2024-01-15 12:40:54,538 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,539 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\04 - Social Interaction Test\B - Graphene 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,540 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\04 - Social Interaction Test\B - Graphene 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,540 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,540 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,541 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,541 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,541 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,541 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,541 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,541 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,541 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,542 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,542 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,542 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,542 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\C\hyp_social.json
+2024-01-15 12:40:54,543 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 13.1646, 'ZONE WIDTH': 3, 'SEPARATOR': {'1': [532, 0], '2': [524, 0], '3': [521, 0], '4': [524, 0], '5': [529, 0], '6': [195, 1], '7': [194, 1], '8': [195, 1], '9': [194, 1], '10': [192, 1], '11': [535, 0], '12': [524, 0]}, 'SEPARATOR ZONE': {'1': [492.5062, 0], '2': [484.5062, 0], '3': [481.5062, 0], '4': [484.5062, 0], '5': [489.5062, 0], '6': [234.4938, 1], '7': [233.4938, 1], '8': [234.4938, 1], '9': [233.4938, 1], '10': [231.4938, 1], '11': [495.5062, 0], '12': [484.5062, 0]}}
+2024-01-15 12:40:54,543 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,543 DEBUG    [batchprocess.py] Found 12 directories under D:\TestSave\Confirm\04 - Social Interaction Test\C - Graphene 0.5 ppm (2nd Batch)
+2024-01-15 12:40:54,545 INFO     [batchprocess.py] Found 12 existed trajectories in D:\TestSave\Confirm\04 - Social Interaction Test\C - Graphene 0.5 ppm (2nd Batch)
+2024-01-15 12:40:54,545 DEBUG    [batchprocess.py] Existed trajectories: 12, pseudo trajectories: 0
+2024-01-15 12:40:54,545 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,545 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,545 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,545 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,546 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,546 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,546 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,546 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,546 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,546 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,546 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,547 DEBUG    [batchprocess.py] Removing [] from 11
+2024-01-15 12:40:54,547 DEBUG    [batchprocess.py] Removing [] from 12
+2024-01-15 12:40:54,547 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\D\hyp_social.json
+2024-01-15 12:40:54,548 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.5949, 'ZONE WIDTH': 3, 'SEPARATOR': {'1': [527, 0], '2': [518, 0], '3': [516, 0], '4': [516, 0], '5': [519, 0], '6': [200, 1], '7': [200, 1], '8': [196, 1], '9': [196, 1], '10': [190, 1]}, 'SEPARATOR ZONE': {'1': [489.2153, 0], '2': [480.2153, 0], '3': [478.2153, 0], '4': [478.2153, 0], '5': [481.2153, 0], '6': [237.7847, 1], '7': [237.7847, 1], '8': [233.7847, 1], '9': [233.7847, 1], '10': [227.7847, 1]}}
+2024-01-15 12:40:54,548 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,548 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\04 - Social Interaction Test\D - Graphene oxide 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,550 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\04 - Social Interaction Test\D - Graphene oxide 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,550 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,550 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,550 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,551 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,551 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,551 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,551 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,551 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,552 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,552 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,552 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,552 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,553 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\E\hyp_social.json
+2024-01-15 12:40:54,553 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.6582, 'ZONE WIDTH': 3, 'SEPARATOR': {'1': [527, 0], '2': [518, 0], '3': [518, 0], '4': [518, 0], '5': [523, 0], '6': [202, 1], '7': [200, 1], '8': [199, 1], '9': [199, 1], '10': [194, 1]}, 'SEPARATOR ZONE': {'1': [489.0254, 0], '2': [480.0254, 0], '3': [480.0254, 0], '4': [480.0254, 0], '5': [485.0254, 0], '6': [239.9746, 1], '7': [237.9746, 1], '8': [236.9746, 1], '9': [236.9746, 1], '10': [231.9746, 1]}}
+2024-01-15 12:40:54,553 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,554 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\04 - Social Interaction Test\E - Graphene oxide 1.0 ppm (2nd Batch)
+2024-01-15 12:40:54,555 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\04 - Social Interaction Test\E - Graphene oxide 1.0 ppm (2nd Batch)
+2024-01-15 12:40:54,555 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,555 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,555 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,555 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,556 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,556 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,556 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,556 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,556 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,556 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,556 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,557 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,557 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\05 - Predator Test\A - Control (1st Batch)
+2024-01-15 12:40:54,557 DEBUG    [batchprocess.py] Condition name is A
+2024-01-15 12:40:54,557 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\05 - Predator Test\B - Graphene 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,558 DEBUG    [batchprocess.py] Condition name is B
+2024-01-15 12:40:54,558 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\05 - Predator Test\C - Graphene 0.5 ppm (1st Batch)
+2024-01-15 12:40:54,558 DEBUG    [batchprocess.py] Condition name is C
+2024-01-15 12:40:54,558 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\05 - Predator Test\D - Graphene oxide 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,558 DEBUG    [batchprocess.py] Condition name is D
+2024-01-15 12:40:54,558 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\05 - Predator Test\E - Graphene oxide 1.0 ppm (1st Batch)
+2024-01-15 12:40:54,559 DEBUG    [batchprocess.py] Condition name is E
+2024-01-15 12:40:54,559 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\A\hyp_predator.json
+2024-01-15 12:40:54,559 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9114, 'ZONE WIDTH': 5, 'SEPARATOR': {'1': [584, 0], '2': [572, 0], '3': [572, 0], '4': [575, 0], '5': [584, 0], '6': [143, 1], '7': [143, 1], '8': [143, 1], '9': [143, 1], '10': [143, 1]}, 'SEPARATOR ZONE': {'1': [519.443, 0], '2': [507.443, 0], '3': [507.443, 0], '4': [510.443, 0], '5': [519.443, 0], '6': [207.55700000000002, 1], '7': [207.55700000000002, 1], '8': [207.55700000000002, 1], '9': [207.55700000000002, 1], '10': [207.55700000000002, 1]}}
+2024-01-15 12:40:54,559 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,560 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\05 - Predator Test\A - Control (1st Batch)
+2024-01-15 12:40:54,561 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\05 - Predator Test\A - Control (1st Batch)
+2024-01-15 12:40:54,561 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,561 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,562 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,562 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,562 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,562 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,562 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,562 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,562 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,563 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,563 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,563 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,564 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\B\hyp_predator.json
+2024-01-15 12:40:54,564 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.7215, 'ZONE WIDTH': 5, 'SEPARATOR': {'1': [582, 0], '2': [572, 0], '3': [569, 0], '4': [572, 0], '5': [577, 0], '6': [152, 1], '7': [152, 1], '8': [148, 1], '9': [147, 1], '10': [147, 1]}, 'SEPARATOR ZONE': {'1': [518.3925, 0], '2': [508.3925, 0], '3': [505.3925, 0], '4': [508.3925, 0], '5': [513.3925, 0], '6': [215.60750000000002, 1], '7': [215.60750000000002, 1], '8': [211.60750000000002, 1], '9': [210.60750000000002, 1], '10': [210.60750000000002, 1]}}
+2024-01-15 12:40:54,564 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,565 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\05 - Predator Test\B - Graphene 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,566 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\05 - Predator Test\B - Graphene 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,566 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,566 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,566 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,566 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,567 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,567 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,567 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,567 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,567 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,567 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,568 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,568 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,569 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\C\hyp_predator.json
+2024-01-15 12:40:54,569 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9747, 'ZONE WIDTH': 5, 'SEPARATOR': {'1': [589, 0], '2': [580, 0], '3': [575, 0], '4': [575, 0], '5': [580, 0], '6': [152, 1], '7': [146, 1], '8': [146, 1], '9': [142, 1], '10': [137, 1]}, 'SEPARATOR ZONE': {'1': [524.1265, 0], '2': [515.1265, 0], '3': [510.12649999999996, 0], '4': [510.12649999999996, 0], '5': [515.1265, 0], '6': [216.8735, 1], '7': [210.8735, 1], '8': [210.8735, 1], '9': [206.8735, 1], '10': [201.8735, 1]}}
+2024-01-15 12:40:54,569 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,569 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\05 - Predator Test\C - Graphene 0.5 ppm (1st Batch)
+2024-01-15 12:40:54,571 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\05 - Predator Test\C - Graphene 0.5 ppm (1st Batch)
+2024-01-15 12:40:54,571 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,571 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,571 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,571 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,571 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,572 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,572 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,572 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,572 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,572 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,572 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,572 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,573 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\D\hyp_predator.json
+2024-01-15 12:40:54,573 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.7848, 'ZONE WIDTH': 5, 'SEPARATOR': {'1': [578, 0], '2': [569, 0], '3': [567, 0], '4': [564, 0], '5': [572, 0], '6': [149, 1], '7': [142, 1], '8': [142, 1], '9': [139, 1], '10': [137, 1]}, 'SEPARATOR ZONE': {'1': [514.076, 0], '2': [505.076, 0], '3': [503.076, 0], '4': [500.076, 0], '5': [508.076, 0], '6': [212.924, 1], '7': [205.924, 1], '8': [205.924, 1], '9': [202.924, 1], '10': [200.924, 1]}}
+2024-01-15 12:40:54,573 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,574 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\05 - Predator Test\D - Graphene oxide 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,575 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\05 - Predator Test\D - Graphene oxide 0.1 ppm (1st Batch)
+2024-01-15 12:40:54,575 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,575 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,575 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,576 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,576 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,576 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,576 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,576 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,577 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,577 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,577 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,577 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,578 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 1\E\hyp_predator.json
+2024-01-15 12:40:54,578 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.8481, 'ZONE WIDTH': 5, 'SEPARATOR': {'1': [576, 0], '2': [569, 0], '3': [569, 0], '4': [571, 0], '5': [571, 0], '6': [144, 1], '7': [144, 1], '8': [144, 1], '9': [139, 1], '10': [139, 1]}, 'SEPARATOR ZONE': {'1': [511.7595, 0], '2': [504.7595, 0], '3': [504.7595, 0], '4': [506.7595, 0], '5': [506.7595, 0], '6': [208.2405, 1], '7': [208.2405, 1], '8': [208.2405, 1], '9': [203.2405, 1], '10': [203.2405, 1]}}
+2024-01-15 12:40:54,578 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,578 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\05 - Predator Test\E - Graphene oxide 1.0 ppm (1st Batch)
+2024-01-15 12:40:54,580 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\05 - Predator Test\E - Graphene oxide 1.0 ppm (1st Batch)
+2024-01-15 12:40:54,580 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,580 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,580 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,580 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,580 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,581 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,581 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,581 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,581 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,581 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,581 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,581 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,582 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\05 - Predator Test\A - Control (2nd Batch)
+2024-01-15 12:40:54,582 DEBUG    [batchprocess.py] Condition name is A
+2024-01-15 12:40:54,582 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\05 - Predator Test\B - Graphene 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,582 DEBUG    [batchprocess.py] Condition name is B
+2024-01-15 12:40:54,582 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\05 - Predator Test\C - Graphene 0.5 ppm (2nd Batch)
+2024-01-15 12:40:54,582 DEBUG    [batchprocess.py] Condition name is C
+2024-01-15 12:40:54,582 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\05 - Predator Test\D - Graphene oxide 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,583 DEBUG    [batchprocess.py] Condition name is D
+2024-01-15 12:40:54,583 INFO     [batchprocess.py] Extracting condition name from D:\TestSave\Confirm\05 - Predator Test\E - Graphene oxide 1.0 ppm (2nd Batch)
+2024-01-15 12:40:54,583 DEBUG    [batchprocess.py] Condition name is E
+2024-01-15 12:40:54,584 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\A\hyp_predator.json
+2024-01-15 12:40:54,584 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9114, 'ZONE WIDTH': 5, 'SEPARATOR': {'1': [586, 0], '2': [575, 0], '3': [575, 0], '4': [578, 0], '5': [586, 0], '6': [147, 1], '7': [147, 1], '8': [147, 1], '9': [145, 1], '10': [147, 1], '11': [584, 0], '12': [574, 0]}, 'SEPARATOR ZONE': {'1': [521.443, 0], '2': [510.443, 0], '3': [510.443, 0], '4': [513.443, 0], '5': [521.443, 0], '6': [211.55700000000002, 1], '7': [211.55700000000002, 1], '8': [211.55700000000002, 1], '9': [209.55700000000002, 1], '10': [211.55700000000002, 1], '11': [519.443, 0], '12': [509.443, 0]}}
+2024-01-15 12:40:54,584 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,585 DEBUG    [batchprocess.py] Found 12 directories under D:\TestSave\Confirm\05 - Predator Test\A - Control (2nd Batch)
+2024-01-15 12:40:54,586 INFO     [batchprocess.py] Found 12 existed trajectories in D:\TestSave\Confirm\05 - Predator Test\A - Control (2nd Batch)
+2024-01-15 12:40:54,586 DEBUG    [batchprocess.py] Existed trajectories: 12, pseudo trajectories: 0
+2024-01-15 12:40:54,586 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,586 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,587 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,587 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,587 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,587 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,587 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,587 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,587 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,588 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,588 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,588 DEBUG    [batchprocess.py] Removing [] from 11
+2024-01-15 12:40:54,588 DEBUG    [batchprocess.py] Removing [] from 12
+2024-01-15 12:40:54,589 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\B\hyp_predator.json
+2024-01-15 12:40:54,589 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.7215, 'ZONE WIDTH': 5, 'SEPARATOR': {'1': [582, 0], '2': [572, 0], '3': [569, 0], '4': [572, 0], '5': [577, 0], '6': [152, 1], '7': [152, 1], '8': [148, 1], '9': [147, 1], '10': [147, 1]}, 'SEPARATOR ZONE': {'1': [518.3925, 0], '2': [508.3925, 0], '3': [505.3925, 0], '4': [508.3925, 0], '5': [513.3925, 0], '6': [215.60750000000002, 1], '7': [215.60750000000002, 1], '8': [211.60750000000002, 1], '9': [210.60750000000002, 1], '10': [210.60750000000002, 1]}}
+2024-01-15 12:40:54,589 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,590 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\05 - Predator Test\B - Graphene 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,591 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\05 - Predator Test\B - Graphene 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,591 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,591 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,591 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,591 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,591 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,592 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,592 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,592 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,592 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,592 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,592 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,593 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,593 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\C\hyp_predator.json
+2024-01-15 12:40:54,593 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.9747, 'ZONE WIDTH': 5, 'SEPARATOR': {'1': [590, 0], '2': [581, 0], '3': [577, 0], '4': [577, 0], '5': [581, 0], '6': [157, 1], '7': [146, 1], '8': [146, 1], '9': [146, 1], '10': [141, 1], '11': [590, 0]}, 'SEPARATOR ZONE': {'1': [525.1265, 0], '2': [516.1265, 0], '3': [512.1265, 0], '4': [512.1265, 0], '5': [516.1265, 0], '6': [221.8735, 1], '7': [210.8735, 1], '8': [210.8735, 1], '9': [210.8735, 1], '10': [205.8735, 1], '11': [525.1265, 0]}}
+2024-01-15 12:40:54,593 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,594 DEBUG    [batchprocess.py] Found 11 directories under D:\TestSave\Confirm\05 - Predator Test\C - Graphene 0.5 ppm (2nd Batch)
+2024-01-15 12:40:54,595 INFO     [batchprocess.py] Found 11 existed trajectories in D:\TestSave\Confirm\05 - Predator Test\C - Graphene 0.5 ppm (2nd Batch)
+2024-01-15 12:40:54,596 DEBUG    [batchprocess.py] Existed trajectories: 11, pseudo trajectories: 0
+2024-01-15 12:40:54,596 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,596 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,596 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,596 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,596 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,596 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,597 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,597 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,597 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,597 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,597 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,597 DEBUG    [batchprocess.py] Removing [] from 11
+2024-01-15 12:40:54,598 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\D\hyp_predator.json
+2024-01-15 12:40:54,598 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.7848, 'ZONE WIDTH': 5, 'SEPARATOR': {'1': [578, 0], '2': [569, 0], '3': [567, 0], '4': [564, 0], '5': [572, 0], '6': [149, 1], '7': [142, 1], '8': [142, 1], '9': [139, 1], '10': [137, 1]}, 'SEPARATOR ZONE': {'1': [514.076, 0], '2': [505.076, 0], '3': [503.076, 0], '4': [500.076, 0], '5': [508.076, 0], '6': [212.924, 1], '7': [205.924, 1], '8': [205.924, 1], '9': [202.924, 1], '10': [200.924, 1]}}
+2024-01-15 12:40:54,598 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,599 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\05 - Predator Test\D - Graphene oxide 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,600 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\05 - Predator Test\D - Graphene oxide 0.1 ppm (2nd Batch)
+2024-01-15 12:40:54,600 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,600 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,600 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,600 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,601 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,601 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,601 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,601 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,601 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,601 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,601 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,602 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,602 INFO     [batchprocess.py] Loading hyp from D:\TestSave\Confirm\static\Batch 2\E\hyp_predator.json
+2024-01-15 12:40:54,602 DEBUG    [batchprocess.py] Loaded hyp: {'FRAME RATE': 50, 'DURATION': 300, 'CONVERSION RATE': 12.8481, 'ZONE WIDTH': 5, 'SEPARATOR': {'1': [579, 0], '2': [569, 0], '3': [569, 0], '4': [569, 0], '5': [573, 0], '6': [148, 1], '7': [142, 1], '8': [142, 1], '9': [139, 1], '10': [139, 1]}, 'SEPARATOR ZONE': {'1': [514.7595, 0], '2': [504.7595, 0], '3': [504.7595, 0], '4': [504.7595, 0], '5': [508.7595, 0], '6': [212.2405, 1], '7': [206.2405, 1], '8': [206.2405, 1], '9': [203.2405, 1], '10': [203.2405, 1]}}
+2024-01-15 12:40:54,603 INFO     [batchprocess.py] Using trajectories.txt as trajectory format
+2024-01-15 12:40:54,603 DEBUG    [batchprocess.py] Found 10 directories under D:\TestSave\Confirm\05 - Predator Test\E - Graphene oxide 1.0 ppm (2nd Batch)
+2024-01-15 12:40:54,604 INFO     [batchprocess.py] Found 10 existed trajectories in D:\TestSave\Confirm\05 - Predator Test\E - Graphene oxide 1.0 ppm (2nd Batch)
+2024-01-15 12:40:54,604 DEBUG    [batchprocess.py] Existed trajectories: 10, pseudo trajectories: 0
+2024-01-15 12:40:54,604 INFO     [batchprocess.py] Prioritizing data... mode = last
+2024-01-15 12:40:54,605 DEBUG    [batchprocess.py] Removing [] from 1
+2024-01-15 12:40:54,605 DEBUG    [batchprocess.py] Removing [] from 2
+2024-01-15 12:40:54,605 DEBUG    [batchprocess.py] Removing [] from 3
+2024-01-15 12:40:54,605 DEBUG    [batchprocess.py] Removing [] from 4
+2024-01-15 12:40:54,605 DEBUG    [batchprocess.py] Removing [] from 5
+2024-01-15 12:40:54,605 DEBUG    [batchprocess.py] Removing [] from 6
+2024-01-15 12:40:54,606 DEBUG    [batchprocess.py] Removing [] from 7
+2024-01-15 12:40:54,606 DEBUG    [batchprocess.py] Removing [] from 8
+2024-01-15 12:40:54,606 DEBUG    [batchprocess.py] Removing [] from 9
+2024-01-15 12:40:54,606 DEBUG    [batchprocess.py] Removing [] from 10
+2024-01-15 12:40:54,606 INFO     [autoanalyzer.py] Loaded 5 tests: ['Novel Tank Test', 'Shoaling Test', 'Mirror Biting Test', 'Social Interaction Test', 'Predator Test']
+2024-01-15 12:40:54,746 DEBUG    [main.py] File existed
+2024-01-15 12:41:04,246 DEBUG    [main.py] User chose not to overwrite
