@@ -22,6 +22,10 @@ Email: [cdhsiao@cycu.edu.tw](mailto:cdhsiao@cycu.edu.tw)
 # TOWER ASSAY downstream analyzing application
 TowerAssayAnalyzer is the new software we build to complement the Tower Assay Protocol. It was designed to streamline and automate the arduous data management and organize the processes associated with raw data.
 
+**FOR THE STABLE VERSION, PLEASE SEND EMAIL TO REQUEST DOWNLOAD PERMISSION to thang.luongcao@gmail.com**
+
+**THE GITHUB VERSION IS DEVELOPING VERSION**
+
 ## INSTALLATION GUIDE
 
 1. Download ```.zip``` file of the whole repository by click on ```Code``` button and select ```Download ZIP```
