@@ -303,6 +303,9 @@ def autoanalyzer(PROJECT_DIR, BATCHNUM, TASK, PROGRESS_BAR, OVERWRITE = False, s
             print(f"Extracting data {self.batch_num} - {self.condition}...")
             self.test_result = extract_data(self.test_num, self.batch_num, self.condition)
 
+            logger.debug(f"Extracted {len(self.test_result)} fish groups data")
+            logger.debug(f"{self.test_result.keys()=}")
+
             if self.test_result == {}:
                 logger.warning(f"No data found for test {self.test_num} batch {self.batch_num} condition {self.condition}.")
                 return
@@ -311,8 +314,10 @@ def autoanalyzer(PROJECT_DIR, BATCHNUM, TASK, PROGRESS_BAR, OVERWRITE = False, s
 
             print("Rearrange into dataframe...")
             for fishgroup in self.test_result.keys():
+                logger.debug(f"Organizing data of fish group {fishgroup}...")
                 self.dfs[fishgroup] = pd.DataFrame()
                 for fish in self.test_result[fishgroup].keys():
+                    logger.debug(f"   fish {fish}...")
                     if fish == 'Common':
                         continue
                     df = self.get_case_df(fishgroup, fish)
@@ -340,15 +345,25 @@ def autoanalyzer(PROJECT_DIR, BATCHNUM, TASK, PROGRESS_BAR, OVERWRITE = False, s
             self.export_to_excel()
 
 
-        def get_case_df(self, key, subkey): # key = fish id, subkey = timestamp
+        def get_case_df(self, key, subkey): # key = fish group, subkey = fish 
+            
+            logger.debug(f"Dealing with key: {key}, key type = {type(key)}")
+            logger.debug(f"and subkey: {subkey}, subkey type = {type(subkey)}")
             
             # Normalize the input
             key = str(key)
 
             case_dict = self.test_result[key][subkey]
 
+            logger.debug(f"{case_dict=}")
+
             # Create df based on extracted data
-            columns = [x[0] for x in case_dict.values()]
+            try:
+                columns = [x[0] for x in case_dict.values()]
+            except Exception as e:
+                logger.error(f"Case dict: {case_dict}")
+                logger.error(e)
+                raise e
             units = [x[2] for x in case_dict.values()]
             for i in range(len(columns)):
                 if units[i] != '':
@@ -357,6 +372,8 @@ def autoanalyzer(PROJECT_DIR, BATCHNUM, TASK, PROGRESS_BAR, OVERWRITE = False, s
             df = pd.DataFrame(columns=columns)
             first_row = [x[1] for x in case_dict.values()]
             df.loc[0] = first_row
+
+            logger.debug(df)
 
             return df
         
