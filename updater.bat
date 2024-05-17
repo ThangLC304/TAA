@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set "my_repo=https://github.com/ThangLC304/taa"
+set "my_repo=https://github.com/VincentL01/taa"
 @REM set my_dir at parent directory/temp_update
 set "parent_dir=%~dp0.."
 set "my_dir=%parent_dir%\temp_update"
